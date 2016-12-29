@@ -1,0 +1,8 @@
+#!/bin/bash
+java -cp /home/pradeep/workspace/gossip/protobuf-java-2.5.0.jar:/home/pradeep/hdfs/stubs:bin namenode.NameNodeServer /home/pradeep/hdfs/configFiles/ &
+sleep 5
+java -cp /home/pradeep/workspace/gossip/protobuf-java-2.5.0.jar:bin:/home/pradeep/hdfs/stubs datanode.DataNodeServer /home/pradeep/hdfs/configFiles/ &
+sleep 2
+java -cp /home/pradeep/workspace/gossip/protobuf-java-2.5.0.jar:bin:/home/pradeep/hdfs/stubs namenode.JobTracker
+sleep 2 &
+java -cp /home/pradeep/workspace/gossip/protobuf-java-2.5.0.jar:bin:/home/pradeep/hdfs/stubs taskTracker.TaskTracker &

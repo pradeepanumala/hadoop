@@ -1,0 +1,445 @@
+Task Tracker Started
+ReduceTask List size is:0
+Sending free counts:3:3
+ReduceTask List size is:0
+Sending free counts:3:3
+Submitted:1:1
+Submitted:1:2
+Submitted:1:3
+mapper starts for:1:1
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/0
+Writing to file..........................:job_1map_1
+Mapper Execution complete:1:1,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_1
+HDFS File Write is complete for :job_1map_1
+
+mapper starts for:1:2
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/1
+Writing to file..........................:job_1map_2
+Mapper Execution complete:1:2,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_2
+HDFS File Write is complete for :job_1map_2
+
+mapper starts for:1:3
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/2
+Writing to file..........................:job_1map_3
+Mapper Execution complete:1:3,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_3
+HDFS File Write is complete for :job_1map_3
+
+ReduceTask List size is:0
+Sending free counts:3:3
+Submitted:1:4
+Submitted:1:5
+Submitted:1:6
+mapper starts for:1:4
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/3
+Writing to file..........................:job_1map_4
+Mapper Execution complete:1:4,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_4
+HDFS File Write is complete for :job_1map_4
+
+mapper starts for:1:6
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/5
+Writing to file..........................:job_1map_6
+Mapper Execution complete:1:6,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_6
+HDFS File Write is complete for :job_1map_6
+
+mapper starts for:1:5
+inputFileName in do mapper loading......../home/pradeep/hdfs/Files/blocks/4
+Writing to file..........................:job_1map_5
+Mapper Execution complete:1:5,Now initiating HDFS Put request
+Writing to file in hdfs /home/pradeep/hdfs/Files/mapOutput/job_1map_5
+HDFS File Write is complete for :job_1map_5
+
+ReduceTask List size is:0
+Sending free counts:3:3
+Reducer Job Submited for:job_1map_1
+Reducer Job Submited for:job_1map_2
+Reducer Job Submited for:job_1map_3
+System is busy so cannot submit
+System is busy so cannot submit
+System is busy so cannot submit
+Reduce task writing to file:
+got the handle : 11 for file:job_1map_2 with hashcode :721155349--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+
+
+Reduce task writing to file:
+got the handle : 9 for file:job_1map_1 with hashcode :1102087468--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+Reduce task writing to file:
+got the handle : 10 for file:job_1map_3 with hashcode :884865090--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+Reduce task writing to file:
+got the handle : 9 for file:job_1map_1 with hashcode :1102087468--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+
+
+Reduce task writing to file:
+got the handle : 10 for file:job_1map_3 with hashcode :884865090--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+
+
+Reduce task writing to file:
+got the handle : 11 for file:job_1map_2 with hashcode :721155349--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+
+
+
+got the handle : 11 for file:job_1map_2 with hashcode :721155349--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/11
+
+
+got the handle : 9 for file:job_1map_1 with hashcode :1102087468--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/9
+
+
+got the handle : 10 for file:job_1map_3 with hashcode :884865090--Tue Apr 19 02:54:04 IST 2016:1461014644633
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/10
+
+ReduceTask List size is:0
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:false
+Sending free counts:3:3
+Reducer Job Submited for:job_1map_1
+Reducer Job Submited for:job_1map_2
+Reducer Job Submited for:job_1map_3
+Reducer Job Submited for:job_1map_4
+System is busy so cannot submit
+System is busy so cannot submit
+Reduce task writing to file:
+got the handle : 13 for file:job_1map_1 with hashcode :196375376--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+Reduce task writing to file:
+got the handle : 13 for file:job_1map_1 with hashcode :196375376--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+
+
+
+got the handle : 13 for file:job_1map_1 with hashcode :196375376--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/9
+
+Reduce task writing to file:
+got the handle : 14 for file:job_1map_2 with hashcode :1342446967--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+
+
+Reduce task writing to file:
+got the handle : 14 for file:job_1map_2 with hashcode :1342446967--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+
+
+
+got the handle : 14 for file:job_1map_2 with hashcode :1342446967--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/11
+
+Reduce task writing to file:
+got the handle : 12 for file:job_1map_3 with hashcode :840643441--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+Reduce task writing to file:
+got the handle : 12 for file:job_1map_3 with hashcode :840643441--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+
+
+
+got the handle : 12 for file:job_1map_3 with hashcode :840643441--Tue Apr 19 02:54:07 IST 2016:1461014647589
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/10
+
+ReduceTask List size is:0
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:false
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:false
+Sending free counts:3:3
+Reducer Job Submited for:job_1map_1
+Reducer Job Submited for:job_1map_2
+Reducer Job Submited for:job_1map_3
+Reducer Job Submited for:job_1map_4
+Reducer Job Submited for:job_1map_5
+Reducer Job Submited for:job_1map_6
+Reduce task writing to file:
+got the handle : 16 for file:job_1map_2 with hashcode :1052803861--Tue Apr 19 02:54:10 IST 2016:1461014650578
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+
+
+Reduce task writing to file:
+got the handle : 16 for file:job_1map_2 with hashcode :1052803861--Tue Apr 19 02:54:10 IST 2016:1461014650578
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+
+
+Reduce task writing to file:
+got the handle : 17 for file:job_1map_3 with hashcode :266982981--Tue Apr 19 02:54:10 IST 2016:1461014650579
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+
+got the handle : 16 for file:job_1map_2 with hashcode :1052803861--Tue Apr 19 02:54:10 IST 2016:1461014650578
+The block locations for the file:job_1map_2 are:[8, 11]
+Sending request for :8
+Sending request for :11
+The block 8 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/8
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/8
+The block 11 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/11
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/11
+
+Reduce task writing to file:
+got the handle : 17 for file:job_1map_3 with hashcode :266982981--Tue Apr 19 02:54:10 IST 2016:1461014650579
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+
+
+
+got the handle : 17 for file:job_1map_3 with hashcode :266982981--Tue Apr 19 02:54:10 IST 2016:1461014650579
+The block locations for the file:job_1map_3 are:[7, 10]
+Sending request for :7
+Sending request for :10
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 10 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/10
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/10
+
+Reduce task writing to file:
+got the handle : 18 for file:job_1map_1 with hashcode :1642963288--Tue Apr 19 02:54:10 IST 2016:1461014650590
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+
+
+Reduce task writing to file:
+got the handle : 18 for file:job_1map_1 with hashcode :1642963288--Tue Apr 19 02:54:10 IST 2016:1461014650590
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+
+
+
+got the handle : 18 for file:job_1map_1 with hashcode :1642963288--Tue Apr 19 02:54:10 IST 2016:1461014650590
+The block locations for the file:job_1map_1 are:[7, 9]
+Sending request for :7
+Sending request for :9
+The block 7 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/7
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/7
+The block 9 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/9
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/9
+
+Reduce task writing to file:
+got the handle : 19 for file:job_1map_5 with hashcode :715894528--Tue Apr 19 02:54:10 IST 2016:1461014650594
+The block locations for the file:job_1map_5 are:[13, 16]
+Sending request for :13
+Sending request for :16
+The block 13 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/13
+
+
+Reduce task writing to file:
+got the handle : 21 for file:job_1map_6 with hashcode :2120435897--Tue Apr 19 02:54:10 IST 2016:1461014650595
+The block locations for the file:job_1map_6 are:[14]
+Sending request for :14
+The block 14 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/14
+
+
+
+got the handle : 21 for file:job_1map_6 with hashcode :2120435897--Tue Apr 19 02:54:10 IST 2016:1461014650595
+The block locations for the file:job_1map_6 are:[14]
+Sending request for :14
+The block 14 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/14
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/14
+
+Reduce task writing to file:
+got the handle : 19 for file:job_1map_5 with hashcode :715894528--Tue Apr 19 02:54:10 IST 2016:1461014650594
+The block locations for the file:job_1map_5 are:[13, 16]
+Sending request for :13
+Sending request for :16
+The block 13 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/13
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/13
+The block 16 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/16
+
+
+
+got the handle : 19 for file:job_1map_5 with hashcode :715894528--Tue Apr 19 02:54:10 IST 2016:1461014650594
+The block locations for the file:job_1map_5 are:[13, 16]
+Sending request for :13
+Sending request for :16
+The block 13 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/13
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/13
+The block 16 is locally present. no need to fetch
+Reducer reading from file /home/pradeep/hdfs/Files/blocks/16
+Reducer Completed for:/home/pradeep/hdfs/Files/blocks/16
+
+ReduceTask List size is:0
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:false
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:false
+Reduce task status is:true
+Reduce task status is:true
+Reduce task status is:true
+Sending free counts:3:3
